@@ -1,5 +1,7 @@
-export const Discover: React.FC = () => {
+import { memo } from 'react'
+
+export const Discover: React.FC = memo(() => {
   return (
-    <div>Discover </div>
+    <div>Discover</div>
   )
-}
+})
