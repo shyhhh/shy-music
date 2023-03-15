@@ -3,7 +3,7 @@ function App() {
     <div className="App">
       app
     </div>
-  );
+  )
 }
 
-export default App;
+export default App

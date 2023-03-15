@@ -1,0 +1,20 @@
+{
+  "extends": "@antfu",
+  "rules": {
+    "curly": "off",
+    "@typescript-eslint/indent": "off",
+    "@typescript-eslint/no-use-before-define": "off",
+    "arrow-parens": "off",
+    "@typescript-eslint/brace-style": "off",
+    "@typescript-eslint/consistent-type-definitions": "off",
+    "@typescript-eslint/lines-between-class-members": "off",
+    "max-statements-per-line": [
+      "error",
+      {
+        "max": 3
+      }
+    ],
+    "@typescript-eslint/comma-dangle": "off",
+    "unused-imports/no-unused-vars": "off"
+  }
+}
