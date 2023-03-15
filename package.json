@@ -10,6 +10,8 @@
     "@types/node": "^16.7.13",
     "@types/react": "^18.0.0",
     "@types/react-dom": "^18.0.0",
+    "craco-less": "2.1.0-alpha.0",
+    "normalize.css": "8.0.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
@@ -17,9 +19,9 @@
     "web-vitals": "^2.1.0"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
+    "start": "craco start",
+    "build": "craco build",
+    "test": "craco test",
     "eject": "react-scripts eject",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix"
@@ -44,6 +46,7 @@
   },
   "devDependencies": {
     "@antfu/eslint-config": "0.36.0",
+    "@craco/craco": "7.0.0-alpha.9",
     "eslint": "8.36.0"
   }
 }
