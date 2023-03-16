@@ -1,7 +1,8 @@
 import { memo } from 'react'
 
-export const Mine: React.FC = memo(() => {
+const Mine: React.FC = memo(() => {
   return (
     <div>Mine</div>
   )
 })
+export default Mine
