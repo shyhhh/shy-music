@@ -24,7 +24,7 @@ const Recommend: React.FC = memo(() => {
   }, [])
   return (
     <div>
-      {banners.map(item => <div key={item.imageUrl} >{item.imageUrl}</div>)}
+      {banners.map((item, index) => <div key={index} >{item.imageUrl}</div>)}
     </div >
   )
 })
