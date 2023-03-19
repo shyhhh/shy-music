@@ -1,5 +1,6 @@
 import { memo, useEffect } from 'react'
 import { fetchBannerDataAction } from './store'
+import { TopBanner } from './c-cpns/top-banner'
 import { useAppDispatch } from '@/store'
 
 const Recommend: React.FC = memo(() => {
@@ -10,7 +11,9 @@ const Recommend: React.FC = memo(() => {
   }, [])
   // render 函数返回 tsx
   return (
-    <div> 1</div >
+    <div>
+      <TopBanner/>
+      1</div >
   )
 })
 

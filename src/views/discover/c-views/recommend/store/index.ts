@@ -5,7 +5,6 @@ export const fetchBannerDataAction = createAsyncThunk(
   'banners',
   async (arg, { dispatch }) => {
     const res = await getBanners()
-    window.console.log(res)
     dispatch(changeBannersAction(res.banners))
   }
 )
