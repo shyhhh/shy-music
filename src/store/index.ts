@@ -2,10 +2,11 @@ import { configureStore } from '@reduxjs/toolkit'
 import type { TypedUseSelectorHook } from 'react-redux'
 import { shallowEqual, useDispatch, useSelector } from 'react-redux'
 import counterReducer from './modules/counter'
-
+import recommendReducer from '@/views/discover/c-views/recommend/store'
 const store = configureStore({
   reducer: {
-    counter: counterReducer
+    counter: counterReducer,
+    recommend: recommendReducer
   }
 })
 
